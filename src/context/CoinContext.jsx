@@ -27,7 +27,7 @@ useEffect(()=> {
 },[currency])
 
     const contextValue = {
-        allCoin, currency, setCurrency
+        allCoin, currency, setCurrency, 
 
     }
 
@@ -39,4 +39,4 @@ useEffect(()=> {
 }
 
 
-export default CoinContextProvider
+export default CoinContextProvider;
